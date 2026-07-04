@@ -5,5 +5,5 @@ import (
 )
 
 type Api struct {
-	Router chi.Mux
+	Router *chi.Mux
 }
